@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #f9f9f9;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 1440px;
+  height: 56px;
+  padding: 0px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 146px;
+  height: 24px;
+}
+
+.menu-option {
+  width:45px ;
+  height:30px;
+}
+
+.ytlogo {
+  width:120px;
+  height:50;
+}
+
+.search {
+  width:680px;
+  height:50px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  height: 34px;
+}
+
+.video {
+  width:45px;
+  height:30px;
+}
+
+.bell {
+  width:45px;
+  height:35px;
+}
+
+.profile {
+  width:45px;
+  height:40px;
+}
+
+.source {
+  position: absolute;
+  width: 952px;
+  height: fit-content;
+  left: 75px;
+  top: 84px;
+}
+
+.vidtitle {
+  font-family: "YouTube Sans", sans-serif;
+  margin-top: 16px;
+  font-size: 20px ;
+}
+
+.vidfeature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 380px;
+  margin: 16px 0;
+  gap: 42px;
+  width: 260px;
+  height: 42px;
+}
+
+.logo {
+  margin-top: 25px;
+  width: 160px;
+  height: 50px;
+}
+
+.subscribe {
+  margin-top:10px;
+  width: 450px;
+  height: 45px;
+}
+
+.like {
+  width: 470px;
+  height: 45px;
+}
+
+.share {
+  width: 470px;
+  height: 45px;
+}
+
+.download {
+  width: 99px;
+  height: 24px;
+}
+
+.rightvideos {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  width: 390px
+}
+
+.rightvideo {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+
+.videodesc {
+  font-family: "YouTube Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 12px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+.videotit {
+  font-family: "YouTube Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 200px;
+  color: #000000;
+}
+
+.videodesc1 {
+  font-family: "YouTube Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #515151;
+}
+
+@media (max-width: 768px) {
+  .rightvideos {
+    display: none;
+  }
+
+  .search,.bell,.menu-option,.ytlogo,.video,.profile{
+    display:none;
+  }
+
+  .head{
+    background-color:  #f9f9f9;
+  }
+
+  .videotit {
+    font-family: "YouTube Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    max-width: 780px;
+    color: #000000;
+  }
+
+  .rightvideoesc{
+    width:780px;
+    height:427px;
+  }
+
+  .rightvideos{
+    padding-top: 600px;
+    padding-left: 150px;
+    display:inline-block;
+
+  }
+  .rightvideo{
+    display:inline-block;
+  }
+ 
+}
